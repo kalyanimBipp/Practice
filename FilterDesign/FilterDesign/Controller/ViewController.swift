@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         collectionView.register(UINib(nibName: "FilterCell", bundle: nil), forCellWithReuseIdentifier: "FilterCell")
         
-        
+        print("Something...")
         collectionView.reloadData()
     }
 
